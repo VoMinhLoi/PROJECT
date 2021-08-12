@@ -1,0 +1,10 @@
+* {margin: 0;}
+#wrapper {
+    margin: auto;
+    height: auto;
+    width: 1000px;
+    overflow: auto;
+}
+header h1 { display: inline;
+}
+.Search { float: right; }
