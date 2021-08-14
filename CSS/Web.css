@@ -74,29 +74,66 @@ main {
     display: flex; 
 }
 aside {
+    text-align: center;
     width: 320px;
+}
+aside h2 {
+    text-align: left;
 }
 aside a {
     text-decoration: none;
-    color: white;
+    color: blue;
 }
 aside h2 {
     color: red;
     text-shadow: 2px 2px 2px rgb(49, 45, 45);
     border-bottom: solid red 5px;
 }
-section {
-    display: flex;
-    width: 680px;
-    margin: 5px;
-}
 .blockmain1 {
-    width: 180px;
+    width: 500px;
+    display: inline;
+    float: left;
 }
-.hinh { width: 495px;}
+.blockmain2 {
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    margin-right: 5px;
+    display: inline;
+    padding: 0px 10px;
+    width: 180px;
+    line-height: 1em;
+}
+.blockmain2 ul {
+    padding: 0px;
+    list-style: none;
+    font-size: small;
+}
+section {
+    width: 680px;
+    margin: 27px 5px;
+    max-height: 700px;
+
+}
+.blockmain3 {
+    margin-top: 20px;
+    border-top: 5px solid whitesmoke;
+}
+.blockmain3 h1 {text-align: center; margin: 10px 0px;}
+.blockmain3 video {
+    width: 320px;
+    height: 180px;
+    margin-left: 13px;
+}
+.video2 {left: 3px; position: relative;}
 .supplement li{
+    text-align: left;
     border-bottom: 1px dotted orangered;
     line-height: 2em;
+}
+li h2 {color: brown;
+    font-size: small;
+    border: none;
+    font-style: italic;
 }
 footer {
     padding-top: 10px;
