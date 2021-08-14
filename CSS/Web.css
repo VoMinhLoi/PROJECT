@@ -17,7 +17,7 @@
 }
 .contact h1 a {
     text-decoration: none;
-    color: #337ab7;
+    color: #13538c;
     padding-left: 0.5em;
 }
 .contact h3 {
@@ -28,7 +28,7 @@
 }
 .contact h3 a {
     text-decoration: none;
-    color: #337ab7;
+    color: #13538c;
 }
 .contact ul {
     width: 250px;
@@ -73,9 +73,27 @@ marquee {
 main {
     display: flex; 
 }
-aside {width: 320px;}
+aside {
+    width: 320px;
+}
+aside a {
+    text-decoration: none;
+    color: white;
+}
+aside h2 {
+    color: red;
+    text-shadow: 2px 2px 2px rgb(49, 45, 45);
+    border-bottom: solid red 5px;
+}
 section {
-    width: 680px;}
+    display: flex;
+    width: 680px;
+    margin: 5px;
+}
+.blockmain1 {
+    width: 180px;
+}
+.hinh { width: 495px;}
 .supplement li{
     border-bottom: 1px dotted orangered;
     line-height: 2em;
