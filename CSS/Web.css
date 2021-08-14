@@ -5,6 +5,118 @@
     width: 1000px;
     overflow: auto;
 }
-header h1 { display: inline;
+.contact {
+    padding-top: 5px;
+    display: flex;
+    background: url(../images/background.jpg);
+    justify-content: center;
 }
-.Search { float: right; }
+.contact h1 {
+    width: 250px;
+    font-size: 3em;
+}
+.contact h1 a {
+    text-decoration: none;
+    color: #337ab7;
+    padding-left: 0.5em;
+}
+.contact h3 {
+    width: 166px;
+    height: 30px;
+    border-right: solid 1px whitesmoke;
+    padding-left: 0.5em;
+}
+.contact h3 a {
+    text-decoration: none;
+    color: #337ab7;
+}
+.contact ul {
+    width: 250px;
+    list-style-type: none;
+}
+.contact span {
+    color: red;
+}
+nav {
+    
+}
+nav ul {
+    padding: 0;
+    display: flex;
+}
+nav li { 
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    text-shadow: 2px 2px rgb(49, 45, 45);
+    color: blanchedalmond;
+}
+nav li:hover {
+    background-color: black;
+    box-shadow: 5px 10px 10px crimson;
+}
+marquee {
+    color: red;
+     text-shadow: 0 0 5px darkblue;;}
+.Search {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.Search input {
+    border: solid 1px;
+    border-radius: 2em;
+}
+main {
+    display: flex; 
+}
+aside {width: 320px;}
+section {
+    width: 680px;}
+.supplement li{
+    border-bottom: 1px dotted orangered;
+    line-height: 2em;
+}
+footer {
+    padding-top: 10px;
+    color:   #dc3545;
+    display: flex;
+    background: url(../images/footer.jpg);
+}
+footer div {
+    width: 333px;
+    
+}
+footer h2 {
+    margin-left: 40px;
+    color: whitesmoke;
+}
+footer ul {
+    padding: 0;
+    margin-top: 20px;
+}
+footer li {
+    list-style-type: none;
+    line-height: 2em;
+    padding-left: 20px;
+    margin-left: 40px;
+    border-left: solid #141516 5px ;
+}
+footer a {
+    text-decoration: none;
+    color: #dc3545;
+    text-shadow: 2px 2px 2px black;
+}
+footer a:hover {font-style: italic;}
+textarea {
+    min-height: 100px;
+    min-width: 172px;
+    margin-top: 5px;
+}
+footer .send {
+    background-color: red;
+    margin-left: 65px;
+}
