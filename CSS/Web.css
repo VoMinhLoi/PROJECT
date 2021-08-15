@@ -126,7 +126,7 @@ section {
 .blockmain3 video {
     width: 320px;
     height: 180px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .video2 {left: 3px; position: relative;}
 .supplement li{
@@ -135,7 +135,7 @@ section {
     line-height: 2em;
 }
 .blockmain3 a {
-    left: 11px;
+    left: 6px;
     position: relative;
 }
 
