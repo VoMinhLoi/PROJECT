@@ -134,11 +134,11 @@ section {
     border-bottom: 1px dotted orangered;
     line-height: 2em;
 }
-li h2 {color: brown;
-    font-size: small;
-    border: none;
-    font-style: italic;
+.blockmain3 a {
+    left: 11px;
+    position: relative;
 }
+
 footer {
     padding-top: 10px;
     color:   #d81528;
@@ -170,14 +170,10 @@ footer a {
     text-shadow: 2px 2px 2px black;
 }
 footer a:hover {font-style: italic;}
-textarea {
-    min-height: 100px;
-    min-width: 172px;
-    margin-top: 5px;
-}
-footer .send {
-    background-color: red;
-    margin-left: 65px;
+li h2 {color: brown;
+    font-size: small;
+    border: none;
+    font-style: italic;
 }
 .mail {color: black;}
 
